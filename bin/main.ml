@@ -10,4 +10,6 @@ let () = match Ninety_nine_ocaml_problems.Problem_2.last_two test_list with
   | Some(x, y) -> Printf.printf "Last: %s, %s\n" x y
 ;;
 
-let () = print_endline (Ninety_nine_ocaml_problems.Problem_3.nth test_list 4) ;;
+let () = print_endline (Ninety_nine_ocaml_problems.Problem_3.nth test_list 3) ;;
+
+let () = Printf.printf "%d\n" (Ninety_nine_ocaml_problems.Problem_4.length test_list) ;;
